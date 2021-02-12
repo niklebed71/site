@@ -1,0 +1,149 @@
+﻿/* Tänne mobiililateen ulkoasumuotoilu */
+body {
+
+	background-color:white;
+	color: black;	
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	width: 100%;}
+  
+  .content {box-sizing: border-box;min-height: 100%; 
+	   padding-bottom: 3em; flex: 1 1 auto; }
+  
+  .navbar {
+	border-style: solid;
+  border-width: thin;
+  border-color: black;
+	width: 100%;
+	background-color: rgb(200, 145, 170); 
+	float: none;}
+  
+  .navbar a {
+  color: blue; 
+  font-size: 150%;}
+	
+  .navbartop {display: none;
+	background-color: rgb(200, 145, 170);}
+  
+  .navbartop ul li {
+	display: inline;
+	margin-left: 1.5em;
+	padding-left: 5.5em;
+	font-size: 1.5em;
+	color: blue;}
+  
+  .navbartop ul li:first-child {
+	border-left: 0;
+	margin-left: 0;
+	padding-left: 0;}
+  
+  .navbartop a:link, .navbar a:link {
+	text-decoration: none; /* poistaa alleviivauksen */}
+  
+  a:hover {color:red;}
+
+  .kuva {    display: flex; flex-direction: column; justify-content: center; }
+  div.img { align-self: center; max-width: 100%; }
+  img.img {  }
+  div.etusivukuva { font-size: 200%; font-weight: 800; align-self: center;}
+   p.etusivukuva {  }
+
+
+  
+	  div.video {text-align: center; min-width: 100%; min-height: 100%; display:block;flex-grow: 1;
+	  }
+	  .video a {display: block; margin: 1em 0 0 0;
+	  }
+	  
+  
+	  footer {height: 8em; margin-top: -1em;
+	  background-color: rgb(200, 145, 170);  }
+  
+	   footer ul li {
+	  display: inline;
+	  font-size: 100em; }
+  
+	  
+  
+	  .itkp  { padding: 0px 0px 0px 3em; }
+  
+	  .nik  { padding: 0em 3em; }
+	 
+	 .footer_row {height: 1em;
+	  align-items:center ;}
+  
+  
+	   .footer_text {color:blue; font-size: 3em; display: inline; 
+	     }
+  
+	  .vittaus {text-decoration: none;}
+  
+  
+	  table {color: black;border: 0.2em solid red; 
+		  border-collapse: collapse; height:50em;width: 50em;}
+	  
+	  tr,td,th {border: 0.15em dotted red;font-size: 1.5em; }
+	  
+  
+		  
+	  .text {padding: 0.6em 0;}
+	   
+  
+	  .flex {
+		  display: flex; flex-wrap: wrap; justify-content:space-around ; }
+		
+		  .flex div {
+		  float: left;
+		  text-align: center;
+		  clear: right;
+		  margin-top: 1em;
+		  position: relative;}
+		
+  
+		.flex div p {
+		  height: 1.5em;
+		  text-align: center;
+		  overflow: hidden;
+		  margin: 0;
+		  padding: 0;
+		  font-size: 1em ;}
+
+  
+		.lomake { display: flex;
+			flex-direction: column;align-items: center;flex-basis: 100%; }
+
+			.lomakerow {width: 100%; font-size: 3em;}
+	
+		 
+		  .tiedot   {   margin: 0 0 10px;
+			 display: flex;flex-direction: column; text-align: center;
+			flex-basis: 100%; }
+
+			.tiedot input  { height: 2em; border: 2px solid black;  }
+			 .tiedot div  { display:flex ; justify-content: space-between ;
+				 align-items: center; }
+			
+				.sukupuoli {  margin: 0 0 10px; 
+				display:flex ; flex-direction: column; text-align: center;  }
+				.sukupuoli input {}
+			
+		   .sukupuoli div { display:flex ; 
+			 align-items: center;justify-content: space-between ;
+			 margin:  0 12em 0 0; }
+		   
+		   .syntymaaikaa {  margin: 0 0 10px; }
+		   .syntymaaikaa input  { height: 2em; border: 2px solid black;  }
+		   .syntymaaikaa div {display:flex ; justify-content: space-between ;
+			 align-items: center; }
+
+		  .lisapalvelu {  margin: 0 0 1em;  }
+			.lisapalvelu p {  text-align: center; }
+			.lisapalvelu div {display:flex ; justify-content: space-between ;
+			margin:  0 12em 0 0; }
+
+			.button {   text-align: center;  margin: 0 0 1em; display: flex; justify-content: space-around;  }
+
+			 .button button { font-size: 1em;}
+			
+  
+		

@@ -1,0 +1,27 @@
+/* Tänne tulostuksen ulkoasumuotoilu */
+.navbartop, .navbar {
+	display: none;
+  }
+  body {
+	 
+	margin-top: 0.5cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+	margin-bottom: 0.5cm;
+  }
+  h1, h2, h3, h4 {
+	page-break-after: avoid;
+	page-break-inside: avoid;
+  }
+  
+  .kuva {
+	page-break-inside: avoid;
+	float: none;
+  }
+  
+  .navbar {
+	display: none;
+  }
+  
+  
+ 

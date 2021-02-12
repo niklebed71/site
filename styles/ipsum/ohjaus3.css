@@ -1,0 +1,174 @@
+
+body {
+
+  background-color:white;
+  color: black;	
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 62em;
+}
+
+.content {box-sizing: border-box;min-height: 100%; 
+	 padding-bottom: 3em; flex: 1 1 auto; }
+
+.navbar {
+  border-style: solid;
+border-width: thin;
+border-color: black;
+  width: 20%;
+   background-color:rgb(200, 145, 170) ;
+  float: right;}
+
+.navbar a {
+color:blue;
+font-size: 1.5em;}
+  
+.navbartop {
+  background-color: rgb(200, 145, 170);}
+
+.navbartop ul li {
+  display: inline;
+  margin-left: 1.5em;
+  padding-left: 5.5em;
+  font-size: 1.5em;
+  color: blue;}
+
+.navbartop ul li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;}
+
+.navbartop a:link, .navbar a:link {
+  text-decoration: none; /* poistaa alleviivauksen */}
+
+a:hover {color:red;}
+
+
+.img {border: 1px solid;  max-width: 30%;  margin:-1.6em 1.6em 1.6em ;
+	position: relative;left: 0;top: 1.6em;}
+	.etusivukuva {font-weight: 700; margin: 0.6em 0 0 17em; }
+	.kuva {margin: 3em 0 0 1em;}
+
+	.video a {display: block; margin: 1em 0 0 0;
+	}
+	
+
+	footer {height: 2em; margin-top: -1em;
+	background-color: rgb(200, 145, 170);  }
+
+	 footer ul li {
+	display: inline;
+	font-size: 1.5em; }
+
+	
+
+    .itkp  { padding: 0px 0px 0px 3em; }
+
+    .nik  { padding: 0em 3em; }
+   
+   .footer_row {height: 1em;
+	align-items:center ;}
+
+
+	 .footer_text {color: black; font-size: 0.8em; display: flex; 
+	justify-content: space-between;   font-size: 1.5em; }
+
+	.vittaus {text-decoration: none;}
+
+
+	table {color: black;border: 0.2em solid red; 
+		border-collapse: collapse; height:19em;width: 19em;}
+	
+	tr,td,th {border: 0.15em dotted red; }
+	
+
+		
+	.text {padding: 0.6em 0;}
+	 
+
+	.flex {
+		display: flex; flex-wrap: wrap;
+		border: red solid;
+		justify-content:space-around ;
+		
+		
+	  }
+	  .flex div {
+		float: left;
+		text-align: center;
+		clear: right;
+		margin-top: 1em;
+		position: relative;
+		border:yellow solid;
+		
+	  }
+	  
+
+	  .flex div p {
+		height: 1.5em;
+		text-align: center;
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+
+	  }
+
+
+
+	 
+		fieldset { width: 100%;
+			
+		  }
+		
+		  .viestinosa { 
+			width: 100%;
+		  }
+		
+		  input,option,textarea { 
+			font-family: 'Courier New', Courier, monospace;
+		  }
+		  label {display: block; width: 68%;
+			  float: left;	clear:both;
+		  }
+		  
+
+
+		 
+		  .block {  display: flex;   width: 81%; 
+			
+		  }
+		  .blockrow {   display: flex; margin-left: 15px;
+            align-items: center;flex-direction: column; 
+			flex-grow: 1; 
+		  }
+		 
+		 
+		  .lomake { display: flex;
+			flex-direction: column;align-items: center;  }
+
+		 
+		 
+		  .tiedot   {  border: 3px solid black; margin: 0 0 10px;
+			 display: flex;flex-direction: column; text-align: center;}
+			 .tiedot div  { display:flex ; justify-content: space-between ;
+				 align-items: center;
+			 }
+			
+				.sukupuoli { border: 3px solid black; margin: 0 0 10px; 
+				display:flex ; flex-direction: column; text-align: center; }
+		   .sukupuoli div { display:flex ; 
+			 align-items: center; }
+		   
+		   .syntymaaikaa { border: 3px solid black; margin: 0 0 10px; }
+		   .syntymaaikaa div {display:flex ; justify-content: space-between ;
+			 align-items: center; }
+
+		  .lisapalvelu { border: 3px solid black; margin: 0 0 10px;  }
+			.lisapalvelu p {  text-align: center; }
+			 
+			.button {   text-align: center;  }
+
+			 .button button { border: 3px solid black;}
+			
+		  
+		  
